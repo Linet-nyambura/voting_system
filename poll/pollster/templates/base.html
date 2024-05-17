@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pollster {% block title %}{% endblock %}</title>
+    </head>
+<body>
+    <!--NavBar-->
+    {% include 'partial/_navbar.html %'}
+    <div class="container">
+        <div class="row">
+            <div class=".col-m-6 m-auto">
+                {% block content %}{% endblock %}
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
